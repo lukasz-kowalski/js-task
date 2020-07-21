@@ -9,7 +9,7 @@ export const retrieveSavedArticlesFromStorage = () => {
   return readLaterState.state;
 };
 
-export const mapNewsToLocalStorage = (data) => ({
+export const mapNewsToLocalStorage = data => ({
   webUrl: data.webUrl,
   webTitle: data.webTitle,
   id: data.id,

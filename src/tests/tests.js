@@ -17,8 +17,7 @@ const testCreateUrl = () => {
   };
 
   const expected1 = 'https://test.com/search?from-date=2020-07-20&page=2';
-  const expected2 =
-    'https://test.com/search?from-date=2020-07-20&page=3&section=sport';
+  const expected2 = 'https://test.com/search?from-date=2020-07-20&page=3&section=sport';
   const expected3 = 'https://test.com/search?from-date=2020-07-20';
 
   if (createUrl(baseUrl, mockedState1) !== expected1) {

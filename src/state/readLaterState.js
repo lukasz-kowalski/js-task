@@ -11,7 +11,7 @@ const state = {
 
   removeItem: (id) => {
     state.state = state.state.filter(
-      (itemFromState) => itemFromState.id !== id,
+      itemFromState => itemFromState.id !== id,
     );
 
     renderer.renderReadLater(state.state);

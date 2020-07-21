@@ -5,5 +5,4 @@ export const formatDate = (date) => {
   return dateToFormat.toISOString().split('T')[0];
 };
 
-export const calculateBeforeDate = (baseDate) =>
-  new Date().setDate(baseDate.getDate() - 30);
+export const calculateBeforeDate = baseDate => new Date().setDate(baseDate.getDate() - 30);

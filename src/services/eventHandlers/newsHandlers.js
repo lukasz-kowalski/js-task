@@ -14,8 +14,7 @@ const handleSearch = (event) => {
 const debouncedHandleSearch = debounce(handleSearch, 300);
 
 const handleSectionSelect = (event) => {
-  state.section =
-    event.target.value !== 'all' ? event.target.value.toLowerCase() : '';
+  state.section = event.target.value !== 'all' ? event.target.value.toLowerCase() : '';
   renderer.clearElement('.newsList');
   fetchNews();
 };
