@@ -1,5 +1,15 @@
 # JS Recruitment Task
 
+## My comments
+
+I wrote some basic unit tests - I was not allowed to use additional libraries like JSDOM so I wasn't able to test rendering functions.
+
+I'm aware of issue with dependency cycle in Read Later renderer, unfortunately I didn't have enough time to figure out solution for this.
+
+There are also marked issues from linter - mostly related to the global document and localStorage objects.
+
+Some rules from prettier and linter was mutually exclusive and I also didn't have enough time to fix them. And to be honest - I didn't know which rules should stay ;)
+
 ## Description
 
 We would like you to create an application that will display list of news fetched from The Guardian. You should use their API, which can be found here: [https://open-platform.theguardian.com/](https://open-platform.theguardian.com/)
